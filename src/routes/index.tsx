@@ -40,7 +40,7 @@ export function Home() {
               Mumbai, Maharashtra
             </p>
             <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl leading-none mb-6">
-              Test PRASAD BALAN THEKIL
+              Test PRASAD BALAN THEKILaaaaaaaaaaaaaaa
             </h1>
             <p className="text-lg sm:text-xl text-neutral-300 mb-8 max-w-xl">
               Creative Director &middot; Senior Supervising Promo Editor &middot; Brand
