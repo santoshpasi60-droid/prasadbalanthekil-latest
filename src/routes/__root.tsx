@@ -47,7 +47,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         {children}
         <footer className="border-t border-white/10 mt-24">
           <div className="max-w-6xl mx-auto px-4 py-10 text-sm text-neutral-500 flex flex-col sm:flex-row items-center justify-between gap-2">
-            <p>&copy; {new Date().getUTCFullYear()} Prasad Balan Thekil — Arrey Waah Entertainment.</p>
+            <p>&copy; {new Date().getUTCFullYear()} Prasad Balan Thekil — Arrey Waah Entertainment Test.</p>
             <p className="uppercase tracking-widest text-red-600">The New Age Mantra</p>
           </div>
         </footer>
