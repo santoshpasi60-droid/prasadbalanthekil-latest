@@ -16,7 +16,7 @@ function News() {
   return (
     <div className="min-h-screen">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <h1 className="font-display text-5xl text-red-600 tracking-wide mb-2">News &amp; Recognition</h1>
+        <h1 className="font-display text-5xl text-red-600 tracking-wide mb-2">111111111News &amp; Recognition</h1>
         <p className="text-neutral-400 mb-10">
           Milestones from two decades of entertainment marketing and independent studio work.
         </p>
