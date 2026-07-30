@@ -8,6 +8,14 @@ export const Route = createFileRoute('/projects')({
   component: Showreel,
 })
 
+const showreelOrder = [
+  'Arrey Waah — Company Showreel',
+  'Editing Showreel',
+  'BigRock Customer Spotlight',
+  'Cinematic Brand Film',
+  'Shemaroo — Brand Campaign',
+]
+
 function youtubeId(url: string | undefined) {
   if (!url) return undefined
   const match = url.match(/(?:youtu\.be\/|v=)([\w-]{11})/)
@@ -15,6 +23,16 @@ function youtubeId(url: string | undefined) {
 }
 
 function Showreel() {
+  const projects = [...allProjects].sort((firstProject, secondProject) => {
+    const firstPosition = showreelOrder.indexOf(firstProject.title)
+    const secondPosition = showreelOrder.indexOf(secondProject.title)
+
+    if (firstPosition === -1 && secondPosition === -1) return 0
+    if (firstPosition === -1) return 1
+    if (secondPosition === -1) return -1
+    return firstPosition - secondPosition
+  })
+
   return (
     <div className="min-h-screen">
       <div className="max-w-6xl mx-auto px-4 py-12">
@@ -25,7 +43,7 @@ function Showreel() {
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {allProjects.map((project) => {
+          {projects.map((project) => {
             const id = youtubeId(project.liveUrl)
             return (
               <Card
