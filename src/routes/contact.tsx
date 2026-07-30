@@ -60,7 +60,7 @@ function Contact() {
               className="flex items-center gap-3 hover:text-red-500 transition-colors"
             >
               <Phone size={18} className="text-red-600" />
-              +92-8169268796
+              +91-8169268796
             </a>
             <a
               href="https://www.arreywaah.com"

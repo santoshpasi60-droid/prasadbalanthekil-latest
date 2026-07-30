@@ -1,6 +1,6 @@
 ---
 title: "Zee — Channel Campaign"
-description: "Creative packaging and promo work delivered for Zee, blending emotion and cinematic pacing into a network campaign."
+description: "Created promotional song and music video for the Marathi feature film \"Ganu\", delivered on Zee."
 tags: ["Channel Branding", "Zee", "Promo"]
 liveUrl: "https://youtu.be/zX3jHhGmXSU"
 ---

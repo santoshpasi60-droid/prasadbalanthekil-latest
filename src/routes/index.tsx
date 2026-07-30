@@ -47,8 +47,9 @@ export function Home() {
               Storyteller &middot; AI Filmmaker
             </p>
             <p className="text-neutral-400 italic mb-10 max-w-xl">
-              &ldquo;Crafting stories that don&rsquo;t just promote content&mdash;they create
-              anticipation.&rdquo;
+              We don&rsquo;t just create content&mdash;we craft stories that captivate, connect,
+              and leave a lasting impression. Every frame is designed to make audiences say one
+              thing: Arrey Waah!
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
