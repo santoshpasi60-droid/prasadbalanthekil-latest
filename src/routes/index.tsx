@@ -40,7 +40,7 @@ export function Home() {
               Mumbai, Maharashtra
             </p>
             <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl leading-none mb-6">
-              Test PRASAD BALAN THEKILaaaaaaaaaaaaaaa
+              PRASAD BALAN THEKIL
             </h1>
             <p className="text-lg sm:text-xl text-neutral-300 mb-8 max-w-xl">
               Creative Director &middot; Senior Supervising Promo Editor &middot; Brand
@@ -145,7 +145,7 @@ export function Home() {
       {/* Why JioHotstar */}
       <section className="max-w-4xl mx-auto px-4 py-16 border-t border-white/10">
         <h2 className="font-display text-3xl text-red-600 mb-6 tracking-wide">
-          Why JioHotstar
+          A Creative Homecoming
         </h2>
         <p className="text-neutral-300 leading-relaxed mb-4">
           For Prasad, this is more than a job application&mdash;it&rsquo;s a creative homecoming.
@@ -156,9 +156,8 @@ export function Home() {
           back to one of India&rsquo;s most influential entertainment platforms.
         </p>
         <blockquote className="border-l-4 border-red-600 pl-4 italic text-neutral-300 mt-8">
-          &ldquo;Great promos don&rsquo;t simply announce what&rsquo;s next&mdash;they make
-          audiences eager to experience it. Every frame is an opportunity to tell a story, build
-          anticipation, and create an unforgettable connection.&rdquo;
+          &ldquo;"I'm not just looking for the next opportunity.
+I'm ready to create the next unforgettable one."&rdquo;
         </blockquote>
       </section>
     </div>
