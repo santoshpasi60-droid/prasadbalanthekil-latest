@@ -156,8 +156,8 @@ export function Home() {
           back to one of India&rsquo;s most influential entertainment platforms.
         </p>
         <blockquote className="border-l-4 border-red-600 pl-4 italic text-neutral-300 mt-8">
-          &ldquo;"I'm not just looking for the next opportunity.
-I'm ready to create the next unforgettable one."&rdquo;
+          &ldquo;I'm not just looking for the next opportunity.
+I'm ready to create the next unforgettable one #arreywaahPrasad!.&rdquo;
         </blockquote>
       </section>
     </div>
